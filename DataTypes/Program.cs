@@ -37,8 +37,8 @@ namespace DataTypes
             Console.WriteLine(d); //output: 90.5
 
             string invalidStringDouble = "Hello";
-            int tryParseDouble = 0;
-            if (Int32.TryParse(invalidString, out tryParseDouble))
+            double tryParseDouble = 0;
+            if (Double.TryParse(invalidString, out tryParseDouble))
             {
                 Console.WriteLine(tryParseDouble);
             }
